@@ -17,11 +17,11 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold mb-2">Quick Links</h3>
           <ul>
-            <li className="mb-1"><a href="#" className="text-gray-400 hover:text-white">About Us</a></li>
-            <li className="mb-1"><a href="#" className="text-gray-400 hover:text-white">Business Solutions</a></li>
-            <li className="mb-1"><a href="#" className="text-gray-400 hover:text-white">AIS140</a></li>
-            <li className="mb-1"><a href="#" className="text-gray-400 hover:text-white">News Room</a></li>
-            <li className="mb-1"><a href="#" className="text-gray-400 hover:text-white">Contact Us</a></li>
+            <li className="mb-1"><a href="/about" className="text-gray-400 hover:text-white">About Us</a></li>
+            <li className="mb-1"><a href="/business-solutions" className="text-gray-400 hover:text-white">Business Solutions</a></li>
+            <li className="mb-1"><a href="/ais140" className="text-gray-400 hover:text-white">AIS140</a></li>
+            <li className="mb-1"><a href="/news-room" className="text-gray-400 hover:text-white">News Room</a></li>
+            <li className="mb-1"><a href="/contact-us" className="text-gray-400 hover:text-white">Contact Us</a></li>
           </ul>
         </div>
 
@@ -29,9 +29,9 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold mb-2">Products</h3>
           <ul>
-            <li className="mb-1"><a href="#" className="text-gray-400 hover:text-white">AIS140 Tracker</a></li>
-            <li className="mb-1"><a href="#" className="text-gray-400 hover:text-white">Trak24 AK1</a></li>
-            <li className="mb-1"><a href="#" className="text-gray-400 hover:text-white">Trak24 OBD</a></li>
+            <li className="mb-1"><a href="/products" className="text-gray-400 hover:text-white">AIS140 Tracker</a></li>
+            <li className="mb-1"><a href="/products" className="text-gray-400 hover:text-white">Trak24 AK1</a></li>
+            <li className="mb-1"><a href="/products" className="text-gray-400 hover:text-white">Trak24 OBD</a></li>
           </ul>
         </div>
 
