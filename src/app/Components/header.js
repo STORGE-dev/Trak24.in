@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import { Drawer } from 'antd';
+import Image from 'next/image';
 
 function Header() {
 
@@ -35,7 +36,9 @@ function Header() {
                     {/* Logo */}
                     <div className="flex items-center">
                         <a href='/'>
-                            <img
+                            <Image
+                         width={150}
+                         height={150}
                                 src="/trak24b.png"
                                 alt="Logo"
                                 className="h-8 md:h-10 w-auto hover:cursor-pointer"

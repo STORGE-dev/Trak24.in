@@ -1,5 +1,6 @@
 import React from 'react'
 import { Card } from 'antd';
+import Image from 'next/image';
 
 function Businesssolutions() {
     return (
@@ -14,7 +15,7 @@ function Businesssolutions() {
                         hoverable
                         className="shadow-lg"
                         style={{ width: 320 }}
-                        cover={<img alt="Fleet Management" src="/ERP-Solution-Image-01.png" />}
+                        cover={<Image width={150} height={150} alt="Fleet Management" src="/ERP-Solution-Image-01.png" />}
                     >
                         <div className="flex items-center justify-center flex-col">
                             <h1 className="text-xl font-bold">Fleet Management</h1>
@@ -28,7 +29,7 @@ function Businesssolutions() {
                         hoverable
                         className="shadow-lg"
                         style={{ width: 320 }}
-                        cover={<img alt="Asset Tracking" src="Attendance-System-Img-01.png" />}
+                        cover={<Image width={150} height={150} alt="Asset Tracking" src="/Attendance-System-Img-01.png" />}
                     >
                         <div className="flex items-center justify-center flex-col">
                             <h1 className="text-xl font-bold">Asset Tracking</h1>
@@ -42,7 +43,7 @@ function Businesssolutions() {
                         hoverable
                         className="shadow-lg"
                         style={{ width: 320 }}
-                        cover={<img alt="Vehicle Tracking" src="Attendance-System-Img-01.png" />}
+                        cover={<Image width={150} height={150} alt="Vehicle Tracking" src="/Attendance-System-Img-01.png" />}
                     >
                         <div className="flex items-center justify-center flex-col">
                             <h1 className="text-xl font-bold">Vehicle Tracking</h1>
@@ -56,7 +57,7 @@ function Businesssolutions() {
                         hoverable
                         className="shadow-lg"
                         style={{ width: 320 }}
-                        cover={<img alt="Fleet Management" src="/Inventory-and-Billing-Image-01.jpg" />}
+                        cover={<Image width={150} height={150} alt="Fleet Management" src="/Inventory-and-Billing-Image-01.jpg" />}
                     >
                         <div className="flex items-center justify-center flex-col">
                             <h1 className="text-xl font-bold">Fleet Management</h1>
@@ -70,7 +71,7 @@ function Businesssolutions() {
                         hoverable
                         className="shadow-lg"
                         style={{ width: 320 }}
-                        cover={<img alt="Asset Tracking" src="/School-Management-Solutions-Image-01.png" />}
+                        cover={<Image width={150} height={150} alt="Asset Tracking" src="/School-Management-Solutions-Image-01.png" />}
                     >
                         <div className="flex items-center justify-center flex-col">
                             <h1 className="text-xl font-bold">Asset Tracking</h1>
@@ -84,7 +85,7 @@ function Businesssolutions() {
                         hoverable
                         className="shadow-lg"
                         style={{ width: 320 }}
-                        cover={<img alt="Vehicle Tracking" src="/Facilities-Management-Using-Gps-Technology-Img-01.jpg" />}
+                        cover={<Image width={150} height={150} alt="Vehicle Tracking" src="/Facilities-Management-Using-Gps-Technology-Img-01.jpg" />}
                     >
                         <div className="flex items-center justify-center flex-col">
                             <h1 className="text-xl font-bold">Vehicle Tracking</h1>

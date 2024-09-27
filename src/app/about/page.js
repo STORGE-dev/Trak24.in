@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 const About = () => {
@@ -15,12 +16,16 @@ const About = () => {
                 </div>
 
                 <div className="flex flex-col items-center space-y-4">
-                    <img
+                    <Image
+                    width={0}
+                    height={0}
                         src='/GPS-Vehicle-Tracker-Image-01.jpg'
                         alt="GPS Vehicle Tracker"
                         className="w-full sm:max-w-xs md:max-w-4xl lg:max-w-5xl rounded-lg shadow-md"
                     />
-                    <img
+                    <Image
+                    width={0}
+                    height={0}
                         src='/fleet-management-system-image-01.png'
                         alt="Fleet Management System"
                         className="w-full sm:max-w-xs md:max-w-2xl lg:max-w-3xl rounded-lg shadow-md"

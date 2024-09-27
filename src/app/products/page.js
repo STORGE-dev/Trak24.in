@@ -1,5 +1,6 @@
 import React from 'react'
 import { Card } from 'antd';
+import Image from 'next/image';
 
 function Products() {
     return (
@@ -14,7 +15,7 @@ function Products() {
                         hoverable
                         className="shadow-lg"
                         style={{ width: 320 }}
-                        cover={<img alt="Fleet Management" src="/AIS140-GPS-Tracker-Image-01.png" />}
+                        cover={<Image width={350} height={350} alt="Fleet Management" src="/AIS140-GPS-Tracker-Image-01.png" />}
                     >
                         <div className="flex items-center justify-center flex-col">
                             <h1 className="text-xl font-bold">AIS140 Tracker</h1>
@@ -28,7 +29,7 @@ function Products() {
                         hoverable
                         className="shadow-lg"
                         style={{ width: 320 }}
-                        cover={<img alt="Asset Tracking" src="/T1E-Mainstream-GPS-Vehicle-Tracker-Img-01.jpg.png" />}
+                        cover={<Image width={350} height={350} alt="Asset Tracking" src="/T1E-Mainstream-GPS-Vehicle-Tracker-Img-01.jpg.png" />}
                     >
                         <div className="flex items-center justify-center flex-col">
                             <h1 className="text-xl font-bold">Trak24 AK1</h1>
@@ -42,7 +43,7 @@ function Products() {
                         hoverable
                         className="shadow-lg"
                         style={{ width: 320 }}
-                        cover={<img alt="Vehicle Tracking" src="/Trak24-OBD-–-Mainstream-GPS-Vehicle-Tracker-Img-01.png" />}
+                        cover={<Image width={350} height={350} alt="Vehicle Tracking" src="/Trak24-OBD-–-Mainstream-GPS-Vehicle-Tracker-Img-01.png" />}
                     >
                         <div className="flex items-center justify-center flex-col">
                             <h1 className="text-xl font-bold">Trak24 OBD</h1>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card } from 'antd';
-import Footer from '../Components/footer';
+import Image from 'next/image';
+
 
 function HomePage() {
     return (
@@ -8,7 +9,9 @@ function HomePage() {
             {/* Hero Section */}
             <div className="relative">
 
-                <img src='/slider-image-01-min.jpg' alt="AIS140 GPS Tracking Image" className="w-full h-[50vh] lg:h-[80vh] object-cover" />
+                <Image    width={600}
+                         height={600}
+                         src='/slider-image-01-min.jpg' alt="AIS140 GPS Tracking Image" className="w-full h-[50vh] lg:h-[80vh] object-cover" />
 
                 {/* Overlay */}
                 <div className="absolute inset-0 bg-black bg-opacity-60"></div>
@@ -55,7 +58,8 @@ function HomePage() {
                         hoverable
                         className="shadow-lg"
                         style={{ width: 320 }}
-                        cover={<img alt="Fleet Management" src="/Merchant-Fleet-Management1.jpg" />}
+                        cover={<Image width={200}
+                        height={200} alt="Fleet Management" src="/Merchant-Fleet-Management1.jpg" />}
                     >
                         <div className="flex items-center justify-center flex-col">
                             <h1 className="text-xl font-bold">Fleet Management</h1>
@@ -69,7 +73,8 @@ function HomePage() {
                         hoverable
                         className="shadow-lg"
                         style={{ width: 320 }}
-                        cover={<img alt="Asset Tracking" src="https://www.trak24.in/wp-content/uploads/2022/05/gps-tracking-image-02_9f89fa33e7025f56208f1bc34d7e2621.jpg" />}
+                        cover={<Image width={200}
+                        height={200} alt="Asset Tracking" src="/gps-tracking-image-02_9f89fa33e7025f56208f1bc34d7e2621.jpg" />}
                     >
                         <div className="flex items-center justify-center flex-col">
                             <h1 className="text-xl font-bold">Asset Tracking</h1>
@@ -83,7 +88,8 @@ function HomePage() {
                         hoverable
                         className="shadow-lg"
                         style={{ width: 320 }}
-                        cover={<img alt="Vehicle Tracking" src="https://www.trak24.in/wp-content/uploads/2022/05/gps-tracking-image-03_f34bab78a57334855fe21de1ea426b5a.jpg" />}
+                        cover={<Image width={200}
+                        height={200} alt="Vehicle Tracking" src="/gps-tracking-image-02_9f89fa33e7025f56208f1bc34d7e2621.jpg" />}
                     >
                         <div className="flex items-center justify-center flex-col">
                             <h1 className="text-xl font-bold">Vehicle Tracking</h1>
