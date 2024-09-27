@@ -29,9 +29,10 @@ function HomePage() {
                 </div>
 
                 <div>
+                    <a href='contact-us'>
                     <button className="bg-orange-500 text-white px-6 py-3 rounded-md hover:scale-110 transform transition duration-300">
                         Start Tracking
-                    </button>
+                    </button></a>
                 </div>
             </div>
 
@@ -145,8 +146,8 @@ function HomePage() {
             {/* Support Section */}
             <div className="flex items-center justify-center my-12 px-4">
                 <div className="flex items-center justify-center bg-orange-500 w-full lg:w-2/3 rounded-3xl py-12 px-8 flex-col text-white">
-                    <h1 className="text-3xl lg:text-4xl font-bold mb-5">We Provide 24×7 Customer Support</h1>
-                    <p className="text-center text-base lg:text-lg mb-8">
+                    <h1 className="text-3xl lg:text-4xl font-bold mb-5 text-center">We Provide 24×7 Customer Support</h1>
+                    <p className="text-center text-base lg:text-lg  mb-8">
                         Our experienced support engineers are ready to assist you with any technical issues 24×7. Kindly give us a call at the below number or email us by visiting our Contact page.
                     </p>
                     <h1 className="text-3xl lg:text-4xl font-bold">+91 484 400 0182</h1>
