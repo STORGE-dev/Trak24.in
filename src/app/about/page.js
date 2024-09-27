@@ -11,7 +11,7 @@ const About = () => {
             <div className='items-center flex flex-col'>
                 <div className="text-center mb-8 ">
                     <p className="text-lg leading-relaxed ">
-                        Trak24 GPS , an AIS 140 certified vehicle trackers designed to meet the highest standards of fleet management and vehicle safety. Whether you're managing a large fleet or ensuring personal vehicle safety, Trak24 offers real-time tracking, route monitoring, and more! </p>
+                        Trak24 GPS , an AIS 140 certified vehicle trackers designed to meet the highest standards of fleet management and vehicle safety. Whether you&apos;re managing a large fleet or ensuring personal vehicle safety, Trak24 offers real-time tracking, route monitoring, and more! </p>
                 </div>
 
                 <div className="flex flex-col items-center space-y-4">
