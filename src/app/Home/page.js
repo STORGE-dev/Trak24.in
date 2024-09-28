@@ -11,7 +11,7 @@ function HomePage() {
 
                 <Image    width={600}
                          height={600}
-                         src='/slider-image-01-min.jpg' alt="AIS140 GPS Tracking Image" className="w-full h-[50vh] lg:h-[80vh] object-cover" />
+                         src='/Trak24-cover.webp' alt="AIS140 GPS Tracking Image" className="w-full h-[50vh] lg:h-[80vh] object-cover" />
 
                 {/* Overlay */}
                 <div className="absolute inset-0 bg-black bg-opacity-60"></div>
