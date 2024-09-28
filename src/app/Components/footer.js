@@ -9,7 +9,7 @@ const Footer = () => {
         {/* First Div: Logo and Description */}
         <div className="flex flex-col">
           <Image   width={150}
-                         height={150} src="/trak24.png" alt="Logo" className="mb-2 w-32" />
+                         height={150} src="/trak24.webp" alt="Logo" className="mb-2 w-32" />
           <p className="text-gray-400">
           AIS 140 certified vehicle trackers designed to meet the highest standards of fleet management and vehicle safety.
           </p>

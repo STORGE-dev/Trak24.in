@@ -59,7 +59,7 @@ function HomePage() {
                         className="shadow-lg"
                         style={{ width: 320 }}
                         cover={<Image width={200}
-                        height={200} alt="Fleet Management" src="/Merchant-Fleet-Management1.jpg" />}
+                        height={200} alt="Fleet Management" src="/Trak24-Fleet-Management1.webp" />}
                     >
                         <div className="flex items-center justify-center flex-col">
                             <h1 className="text-xl font-bold">Fleet Management</h1>
@@ -74,7 +74,7 @@ function HomePage() {
                         className="shadow-lg"
                         style={{ width: 320 }}
                         cover={<Image width={200}
-                        height={200} alt="Asset Tracking" src="/gps-tracking-image-02_9f89fa33e7025f56208f1bc34d7e2621.jpg" />}
+                        height={200} alt="Asset Tracking" src="/trak24-Asset-Tracking.webp" />}
                     >
                         <div className="flex items-center justify-center flex-col">
                             <h1 className="text-xl font-bold">Asset Tracking</h1>
@@ -89,7 +89,7 @@ function HomePage() {
                         className="shadow-lg"
                         style={{ width: 320 }}
                         cover={<Image width={200}
-                        height={200} alt="Vehicle Tracking" src="/gps-tracking-image-02_9f89fa33e7025f56208f1bc34d7e2621.jpg" />}
+                        height={200} alt="Vehicle Tracking" src="/trak24-vehicle-Tracking.webp" />}
                     >
                         <div className="flex items-center justify-center flex-col">
                             <h1 className="text-xl font-bold">Vehicle Tracking</h1>
@@ -107,46 +107,47 @@ function HomePage() {
             <div className="flex flex-col items-center my-12">
                 <h1 className="text-3xl font-bold mb-6">Our Presence</h1>
 
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:w-4/5">
-                    {/* Location Cards */}
-                    <div className="flex flex-col items-center">
-                        <h1 className="text-orange-500 font-bold text-xl">OMAN</h1>
-                        <h2 className="font-semibold">Al Gushiba United Trading L.L.C. P.O. Box - 121</h2>
-                        <p className='text-center'>Sanaya Street, Mobeilla Seeb, Muscat, Sultanate<br />of Oman</p>
-                        <h3 className='pt-3'>Phone: +968-9593 4141</h3>
-                        <h3>E-mail: sales@trak247.com</h3>
-                        <h3>Website: www.trak247.com</h3>
-                    </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 lg:gap-10 lg:w-4/5 w-full px-4">
+    {/* Location Cards */}
+    <div className="flex flex-col items-center text-center">
+        <h1 className="text-orange-500 font-bold text-lg md:text-xl">OMAN</h1>
+        <h2 className="font-semibold text-base md:text-lg">Al Gushiba United Trading L.L.C. P.O. Box - 121</h2>
+        <p className='text-center text-sm md:text-base'>Sanaya Street, Mobeilla Seeb, Muscat, Sultanate<br />of Oman</p>
+        <h3 className='pt-3 text-sm md:text-base'>Phone: +968-9593 4141</h3>
+        <h3 className='text-sm md:text-base'>E-mail: sales@trak247.com</h3>
+        <h3 className='text-sm md:text-base'>Website: www.trak247.com</h3>
+    </div>
 
-                    <div className="flex flex-col items-center">
-                        <h1 className="text-orange-500 font-bold text-xl">DUBAI</h1>
-                        <h2 className="font-semibold">P.O Box 80715, Deira, Dubai</h2>
-                        <p>United Arab Emirates</p>
-                        <h3 className='pt-3'>Phone: +971 4 238 6144</h3>
-                        <h3>E-mail: sales@waytracksystems.com</h3>
-                        <h3>Website: www.waytracksystems.com</h3>
-                    </div>
+    <div className="flex flex-col items-center text-center">
+        <h1 className="text-orange-500 font-bold text-lg md:text-xl">DUBAI</h1>
+        <h2 className="font-semibold text-base md:text-lg">P.O Box 80715, Deira, Dubai</h2>
+        <p className='text-sm md:text-base'>United Arab Emirates</p>
+        <h3 className='pt-3 text-sm md:text-base'>Phone: +971 4 238 6144</h3>
+        <h3 className='text-sm md:text-base'>E-mail: sales@waytracksystems.com</h3>
+        <h3 className='text-sm md:text-base'>Website: www.waytracksystems.com</h3>
+    </div>
 
-                    <div className="flex flex-col items-center">
-                        <h1 className="text-orange-500 font-bold text-xl">COCHIN</h1>
-                        <h2 className="font-semibold">#44/1535(3), 1st Floor, Kolathparambil Annex</h2>
-                        <p className='text-center'>Silver Lane, Ashoka Road, Kaloor,<br />Cochin - 682017, Kerala, India</p>
-                        <h3 className='pt-3'>Phone: +91 484-400-0182</h3>
-                        <h3>Mobile: +91 9388628630</h3>
-                        <h3>E-mail: info@trak24.com</h3>
-                        <h3>Website: www.trak24.com</h3>
-                    </div>
+    <div className="flex flex-col items-center text-center">
+        <h1 className="text-orange-500 font-bold text-lg md:text-xl">COCHIN</h1>
+        <h2 className="font-semibold text-base md:text-lg">#44/1535(3), 1st Floor, Kolathparambil Annex</h2>
+        <p className='text-center text-sm md:text-base'>Silver Lane, Ashoka Road, Kaloor,<br />Cochin - 682017, Kerala, India</p>
+        <h3 className='pt-3 text-sm md:text-base'>Phone: +91 484-400-0182</h3>
+        <h3 className='text-sm md:text-base'>Mobile: +91 9388628630</h3>
+        <h3 className='text-sm md:text-base'>E-mail: info@trak24.com</h3>
+        <h3 className='text-sm md:text-base'>Website: www.trak24.com</h3>
+    </div>
 
-                    <div className="flex flex-col items-center">
-                        <h1 className="text-orange-500 font-bold text-xl">HYDERABAD</h1>
-                        <h2 className="font-semibold">#9-6-192 1st Floor, Sun Complex</h2>
-                        <p className='text-center'>Santosh Nagar Main Road, Opp. Indo English School,<br />Durgabhavani Nagar, Hyderabad - 500059</p>
-                        <h3 className='pt-3'>Phone: +91 898-542-0421</h3>
-                        <h3>Mobile: 9490390036</h3>
-                        <h3>E-mail: info@greenladder.in</h3>
-                        <h3>Website: www.greenladder.in</h3>
-                    </div>
-                </div>
+    <div className="flex flex-col items-center text-center">
+        <h1 className="text-orange-500 font-bold text-lg md:text-xl">HYDERABAD</h1>
+        <h2 className="font-semibold text-base md:text-lg">#9-6-192 1st Floor, Sun Complex</h2>
+        <p className='text-center text-sm md:text-base'>Santosh Nagar Main Road, Opp. Indo English School,<br />Durgabhavani Nagar, Hyderabad - 500059</p>
+        <h3 className='pt-3 text-sm md:text-base'>Phone: +91 898-542-0421</h3>
+        <h3 className='text-sm md:text-base'>Mobile: 9490390036</h3>
+        <h3 className='text-sm md:text-base'>E-mail: info@greenladder.in</h3>
+        <h3 className='text-sm md:text-base'>Website: www.greenladder.in</h3>
+    </div>
+</div>
+
             </div>
 
             {/* Support Section */}

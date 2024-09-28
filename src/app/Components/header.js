@@ -39,7 +39,7 @@ function Header() {
                             <Image
                          width={150}
                          height={150}
-                                src="/trak24b.png"
+                                src="/trak24b.webp"
                                 alt="Logo"
                                 className="h-8 md:h-10 w-auto hover:cursor-pointer"
                             />
